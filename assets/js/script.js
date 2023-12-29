@@ -16,11 +16,17 @@ async function getCard(){
         digitalCard.innerHTML +=`
 
         <img id= "foti" src="${cards.avatar_url}" alt="">
-        <li class="">Login:${cards.id}</li>
-        <li>Id: ${cards.id}</li>
-        <li>${cards.name}</li>
-        <li>${cards.bio}</li>
-        <li>${cards.html_url}</li>
+        <div id="first-div">
+          <li class="user1">${cards.name}</li>
+          <li class="user2">${cards.bio}</li>
+        </div>
+        <div id="second-div">
+           <li class="user">${cards.login}</li>
+           <li class="user">${cards.id}</li>
+        </div>
+        <div third-div>
+           <li class="user">${cards.html_url}</li>
+        </div>
 `
     }
 }

@@ -1,24 +1,67 @@
+
+
 #myDiv{
-    margin: 150px auto;
+    margin: 70px auto;
     padding: 40px;
-    width: 150px;
-    height: 300px;
     display:flex;
     align-items: center;
     justify-content: center;
-    background-image: url("assets/img/card.image-2.jpg");
+
+
+
 }
 
 #foti{
-    background-size: cover;
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
-}
-#card{
-    height: 350px;
-    width: 250px;
-    border: solid 2px;
-   
 
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+    display: block;
+    justify-content: center;
+    /* filter:opacity(0%) */
+}
+/* 
+#foti:hover{
+    /* filter:opacity(100%) */
+
+#card{
+    height: 400px;
+    width: 220px;
+   list-style-type: none;
+   border: 4px outset tomato ;
+   border-radius: 10px;
+   /* background-color: hsla(9, 100%, 64%, 0.5); */
+   box-sizing:  content-box;
+   background-image: url("../img/card.image-2.jpg");
+
+
+
+   /* background-color: aqua; */
+    
+
+}
+.user{
+   padding: 5px;
+}
+
+#first-div{
+    margin-top: 5px;
+    margin-left: -35px;
+    height: 100px;
+    width: 250px;
+    background-color: rgb(251, 113, 88);
+    border-radius: 10px;
+
+}
+
+.user1{
+    padding: 10px;
+    margin-top:10px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family:'Brush Script MT', cursive;
+    
 }
