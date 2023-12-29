@@ -23,9 +23,12 @@ async function getCard(){
         <div id="second-div">
            <li class="user">${cards.login}</li>
            <li class="user">${cards.id}</li>
-        </div>
-        <div third-div>
            <li class="user">${cards.html_url}</li>
+           <li class="user">${cards.location}</li>
+           <li class="user">${cards.followers}</li>
+           <li class="user">${cards.following}</li>
+           <li class="user">${cards.public_repos}</li>
+           <li class="user">${cards.public_gists}</li>
         </div>
 `
     }
