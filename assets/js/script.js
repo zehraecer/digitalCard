@@ -21,14 +21,16 @@ async function getCard(){
           <li class="user2">${cards.bio}</li>
         </div>
         <div id="second-div">
-           <li class="user">${cards.login}</li>
-           <li class="user">${cards.id}</li>
-           <li class="user">${cards.html_url}</li>
-           <li class="user">${cards.location}</li>
-           <li class="user">${cards.followers}</li>
-           <li class="user">${cards.following}</li>
-           <li class="user">${cards.public_repos}</li>
-           <li class="user">${cards.public_gists}</li>
+           <li class="user"><span style="color:tomato;font-style:italic;font-weight:bold">Kullanıcı Adı:</span>${cards.login}</li>   
+           <li class="user"><span style="color:tomato;font-style:italic;font-weight:bold">İd:</span>${cards.id}</li>
+           <li class="user"><span style="color:tomato;font-style:italic;font-weight:bold">github:</span>${cards.html_url}</li>
+           <li class="user"><span style="color:tomato;font-style:italic;font-weight:bold">Lokasyon:</span>${cards.location}</li>
+           <li class="user"<span style="color:tomato;font-style:italic;font-weight:bold">Takipçi:</span>${cards.followers}</li>
+           <li class="user"><span style="color:tomato;font-style:italic;font-weight:bold">Takip Edilen:</span>${cards.following}</li>
+           <li class="user"><span style="color:tomato;font-style:italic;font-weight:bold">Public Repo:</span>${cards.public_repos}</li>
+           <li class="user"><span style="color:tomato;font-style:italic;font-weight:bold">Public Gists:</span>${cards.public_gists}</li>
+           <li class="user"><span style="color:tomato;font-style:italic;font-weight:bold">Şirket:</span>${cards.company}</li>
+
         </div>
 `
     }

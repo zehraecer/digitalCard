@@ -28,8 +28,8 @@
     /* filter:opacity(100%) */
 
 #card{
-    height: 400px;
-    width: 220px;
+    height: 500px;
+    width: 280px;
    list-style-type: none;
    border: 4px outset tomato ;
    border-radius: 10px;
@@ -48,25 +48,40 @@
     margin-top: 5px;
     margin-left: -35px;
     height: 100px;
-    width: 250px;
+    width: 310px;
     background-color: rgb(251, 113, 88);
     border-radius: 10px;
+    display: block;
+    
 
 }
 
 .user1{
+    color: antiquewhite;
     padding: 10px;
     margin-top:10px;
     margin-left: 50px;
-    font-size: 25px;
-    font-family:'Brush Script MT', cursive;
+    font-size: 40px;
+    font-style: italic;   
+    text-decoration:solid; 
+    font-weight: bold;
+
+}.user2{
+    color: antiquewhite;
+    padding-left:45px;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bold;
     
 }
 #second-div{
     height: 300px;
-    width: 150px;
-    padding-left: 30px;
+    width: 200px;
+    padding-left: 0;
     padding-top: 5px;
+    line-height: 25px;
+    /* background: linear-gradient(#f5a935,#f97212); */
+
 }
 .user{
     padding-top: 5px;
